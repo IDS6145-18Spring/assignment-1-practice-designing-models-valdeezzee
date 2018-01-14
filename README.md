@@ -2,7 +2,7 @@
 (remove: **text between brackets to be removed**)
 
 > * Participant name: Jonathan Valderrama
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Project Title: Finding parking using parking spot sensors and GPS tracking
 
 ## General Introduction
 
