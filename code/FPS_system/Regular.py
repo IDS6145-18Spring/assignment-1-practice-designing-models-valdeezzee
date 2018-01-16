@@ -1,8 +1,8 @@
 from ParkingSpot import ParkingSpot
-class Handicap(ParkingSpot):
+class Regular:
 
 	def __init__(self):
-		self.vanAccesible = false
+		print("Regular")
 
 	def Area(self):
 		print("setting area of spot")

@@ -8,10 +8,13 @@ class Location:
 		self.xCoord = x
 		self.yCoord = y
 		self.zCoord = z
-		self.vectorLocation = numpy.array([a,b,c])
+		self.vectorLocation = np.array([x,y,z])
 
 	def distance(self, userLocation):
 		''' I'm using 3d vectors to represent locations'''
 		dist = np.linalg.norm(self.vectorLocation - userLocation)
 		#return the distance between the user and the current parking spot
 		return dist
+
+	def __str__(self):
+		return "Parking spot is located at: {} ".format(self.vectorLocation)
