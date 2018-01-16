@@ -2,13 +2,17 @@
 (remove: **text between brackets to be removed**)
 
 > * Participant name: Jonathan Valderrama
-> * Project Title: Finding parking using parking spot sensors and GPS tracking
+> * Project Title: Finding parking using parking spot sensors and geolocation
 
 ## General Introduction
 
 A **smart city** is an urban area that uses different types of electronic data collection sensors to supply information which is used to manage assets and resources efficiently.
 
 ![Image of Smart City](images/smartcity.png)
+
+It is always a hassle trying to find parking espcially in a busy part of town. Whether you are going to an event, school or an appointment, finding parking is frustrating.
+
+(https://www.usatoday.com/story/money/2017/07/12/parking-pain-causes-financial-and-personal-strain/467637001/)
 
 (remove: States your motivation clearly: why is it important / interesting to solve this problem?)
 (remove: Add real-world examples, if any)
