@@ -25,8 +25,24 @@ The problem originates from growing populations and tourism. There are a couple 
 Hypothesis - Having a smart parking system can decrese the time it takes to find a parking, traffic, and the use of fuel. 
 
 Requirements:
-* sflkjasf
-* safkl
+
+* Access to a smartphone or laptop with gps
+* Sensors placed on parking spots
+
+Inputs:
+
+* User inputs locations where they want to find parking.
+* Types of parking spots
+
+Outputs:
+
+* Closest locations
+* Types of parking spots
+
+Functions:
+
+* Search for parking spots available in radius of location inputed
+* Area of parking spot to determine type
 
 (remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
 
@@ -41,6 +57,8 @@ Requirements:
 * [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
 
 ## Smart City (My Problem) Simulation
+
+I would have a user input their location or the location where they would like to search for parking. The simulation searches and outputs the closest location from the user input.
 
 (remove: for part 3 add two to three sentences here and link the [**(your own name)**](model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
 
