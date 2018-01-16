@@ -12,6 +12,6 @@ class Location:
 
 	def distance(self, userLocation):
 		''' I'm using 3d vectors to represent locations'''
-		dist = np.linalg.norm(a-b)
+		dist = np.linalg.norm(self.vectorLocation - userLocation)
 		#return the distance between the user and the current parking spot
 		return dist

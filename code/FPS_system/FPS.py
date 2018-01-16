@@ -1,18 +1,24 @@
 import math, time
 import numpy as np
-import Location
+import Location, Handicap
+
+
+def CreateParkingSpots(parkingSpots):
+	#create a random amount of parking spots for sim
+	
+
 
 
 def Simulate():
-	print("Nothing")
-	a = np.array([1,2,3])
-	b = np.array([4,5,6])
-	dist = np.linalg.norm(a-b)
-	print(dist)
+	print("here")
+
 
 
 def main():
-	print("here")
+	
+	#create parking spots
+	parkings = []
+	CreateParkingSpots(parkings)
 
 	Simulate()
 
