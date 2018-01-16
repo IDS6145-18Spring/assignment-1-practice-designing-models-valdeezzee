@@ -5,4 +5,5 @@ class Regular:
 		print("Regular")
 
 	def Area(self):
+		
 		print("setting area of spot")

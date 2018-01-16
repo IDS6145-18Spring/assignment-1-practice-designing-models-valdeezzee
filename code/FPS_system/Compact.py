@@ -5,4 +5,6 @@ class Compact:
 		print("Compact")
 
 	def Area(self):
-		print("setting area of spot")
+		l = 20
+		w = 7
+		return l * w
