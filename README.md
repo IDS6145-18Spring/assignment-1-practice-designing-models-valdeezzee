@@ -10,20 +10,23 @@ A **smart city** is an urban area that uses different types of electronic data c
 
 ![Image of Smart City](images/smartcity.png)
 
-It is always a hassle trying to find parking, espcially in a busy part of town. Whether you are going to an event, school or an appointment, finding parking is frustrating. Not only that, but you are wasting time, driving around searching, and using up fuel at the same time. For example, going to class on a busy day, which is most days, you are driving around following people in hopes they are leaving for the day. Typically I can spend 10 - 15 minutes looking.
-
+It is always a hassle trying to find parking, espcially in a busy part of town. Whether you are going to an event, school or an appointment, finding parking is frustrating. Not only that, but you are wasting time, driving around searching, and using up fuel at the same time. For example, going to class on a busy day, which is most days, you are driving around following people in hopes they are leaving for the day. Typically I can spend 10 - 15 minutes looking. This also increases traffic around the area where parking is hard to find.
 
 [Parking pain causes financial and personal strain](https://www.usatoday.com/story/money/2017/07/12/parking-pain-causes-financial-and-personal-strain/467637001/)
 
+The problem originates from growing populations and tourism. There are a couple parking sites and apps that just let you know where there is parking but not exactly if there is parking.
 
-There are a couple parking sites and apps that just let you know where there is parking but not exactly if there is parking. 
-The 
 (remove: States your motivation clearly: why is it important / interesting to solve this problem?)
 (remove: Add real-world examples, if any)
 (remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
 
 ## Requirements (Experimental Design)
 
+Hypothesis - Having a smart parking system can decrese the time it takes to find a parking, traffic, and the use of fuel. 
+
+Requirements:
+* sflkjasf
+* safkl
 
 (remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
 
