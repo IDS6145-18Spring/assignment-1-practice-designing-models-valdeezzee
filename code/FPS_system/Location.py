@@ -10,11 +10,15 @@ class Location:
 		self.zCoord = z
 		self.vectorLocation = np.array([x,y,z])
 
-	def distance(self, userLocation):
+	def Distance(self, userLocation):
 		''' I'm using 3d vectors to represent locations'''
 		dist = np.linalg.norm(self.vectorLocation - userLocation)
 		#return the distance between the user and the current parking spot
 		return dist
+
+	def CurrentLocation(self):
+		'''Get the current location of this object'''
+		return self.vectorLocation
 
 	def __str__(self):
 		return "Parking spot is located at: {} ".format(self.vectorLocation)

@@ -1,10 +1,11 @@
-
+import random
 class ParkingSpot:
 
-	def __init__(self, l, f):
-		self.location = l
+	def __init__(self, number, cost, sensor):
+		self.spotNumber = number
+		self.cost = cost
+		self.sensor = sensor
 		self.occupied = False
-		self.free = f
 		print("initialize parking ParkingSpot")
 
 	
@@ -13,14 +14,14 @@ class ParkingSpot:
 		#Make sure the subclass defines this method
 		return None
 
+	def SpotNumber(self):		
+		'''Returns the parking spot number'''
+		return self.spotNumber
+
 	def __str__(self):
 		price = ""
-		if self.free:
-			price = "free to park"
+		if self.cost == 0.0:
+			price = "free to park."
 		else:
-			price = "$10 to park" 
-		return "Parking Spot is at location {} and it is {}".format(self.location, price)
-
-#quik test
-p = ParkingSpot((1,2,3), True)
-print(p)
+			price = str(self.cost) + " to park."
+		return "Parking Spot is of type {} at Spot Number {} and it is {}".format(str(self.__class__.__name__),self.spotNumber, price)

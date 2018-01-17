@@ -1,9 +1,11 @@
 from ParkingSpot import ParkingSpot
-class Regular:
+class Regular(ParkingSpot):
 
-	def __init__(self):
+	def __init__(self, location, cost, sensor):
 		print("Regular")
+		ParkingSpot.__init__(self, location, cost, sensor)
 
 	def Area(self):
-		
-		print("setting area of spot")
+		l = 20
+		w = 8
+		return l * w

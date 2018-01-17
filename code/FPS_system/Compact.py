@@ -1,8 +1,9 @@
 from ParkingSpot import ParkingSpot
-class Compact:
+class Compact(ParkingSpot):
 
-	def __init__(self):
+	def __init__(self, number, cost, sensor):
 		print("Compact")
+		ParkingSpot.__init__(self, number, cost, sensor)
 
 	def Area(self):
 		l = 20

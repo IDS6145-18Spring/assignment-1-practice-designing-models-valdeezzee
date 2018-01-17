@@ -46,7 +46,7 @@ Functions:
 
 (remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
 
-## Smart City (My Problem) Model
+## Smart City Fast Parking Search Model
 
 (remove: add a high-level overview of your model, the part below should link to the model directory markdown files)
 (remove: Look at the [**Object Diagram**](model/object_diagram.md) for how to structure this part of Part 2 for each diagram. Only the Object diagram has the template, the rest are blank. )
@@ -56,14 +56,14 @@ Functions:
 * [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
 * [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
 
-## Smart City (My Problem) Simulation
+## Smart City Fast Parking Search Simulation
 
 I would have a user input their location or the location where they would like to search for parking. The simulation searches and outputs the closest location from the user input.
 
 (remove: for part 3 add two to three sentences here and link the [**(your own name)**](model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
 
 
-## Smart City (My Problem) Model
+## Smart City Fast Parking Search Model
 [**Code template**](code/README.md) - Starting coding framework for the (insert your exact problem here.)
 
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
