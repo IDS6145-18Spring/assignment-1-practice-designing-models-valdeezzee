@@ -29,8 +29,9 @@ def CreateParkingLots(parkingLots):
 	c = Compact("A-2", 12.0, "Sensor")
 	r = Regular("A-3", 20.0, "Sensor")
 
-	sL = SingleLevel(1)
-	mL = MulitLevel(1)
+	sL = SingleLevel(Location(1,2,3),h,3,4,5)
+	mL = MulitLevel(Location(1,2,3),c,3,4,5,6)
+
 	print(sL)
 	print(mL)
 	print(h)

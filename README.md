@@ -4,8 +4,6 @@
 > * Participant name: Jonathan Valderrama
 > * Project Title: Finding parking using parking spot sensors and geolocation
 
-![Example Object Diagram](images/class_object_diagram.png)
-
 ## General Introduction
 
 A **smart city** is an urban area that uses different types of electronic data collection sensors to supply information which is used to manage assets and resources efficiently.
@@ -43,8 +41,9 @@ Outputs:
 
 Functions:
 
-* Search for parking spots available in radius of location inputed
-* Area of parking spot to determine type
+* Search for ParkingLots available in area you are searching
+* Returning the number of the parking spot
+
 
 (remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
 
@@ -60,7 +59,7 @@ Functions:
 
 ## Smart City Fast Parking Search Simulation
 
-I would have a user input their location or the location where they would like to search for parking. The simulation searches and outputs the closest location from the user input.
+I would have a user input their location or the location where they would like to search for parking. The simulation searches for the closest parking lot and shows the parking spots in the lot you pick.
 
 (remove: for part 3 add two to three sentences here and link the [**(your own name)**](model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
 
