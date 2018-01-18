@@ -24,4 +24,6 @@ Outputs:
 - time spent reaching parking spot
 - traffic data
 
+This system will help me analyse my hypothesis by acquiring data to show if a smart parking system actually helped with reduced time searching for parking and traffic.
+
 (remove: images say 1000 words for you...)
