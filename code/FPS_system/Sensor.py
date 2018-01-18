@@ -5,7 +5,7 @@ class Sensor():
 		self.objectDetected = False
 		self.lifeSpan = 100.0
 		self.timer = 0.0
-		self.startTimer = false
+		self.startTimer = False
 
 	def GetLifeSpan(self):
 		return self.lifeSpan

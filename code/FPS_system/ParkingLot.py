@@ -15,9 +15,12 @@ class ParkingLot():
 		#Make sure the subclass defiens this method
 		return None
 
-	def GetParkingSpots():
+	def GetParkingSpots(self):
 		return self.parkingSpots
 
+	def GetLocatoin(self):
+		return self.location
+
 	def __str__(self):
-		return "This is a {} ParkingLot".format(str(self.__class__.__name__))
+		return "This is a {} ParkingLot with {} parking spots available".format(str(self.__class__.__name__), len(self.parkingSpots))
 

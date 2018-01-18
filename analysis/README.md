@@ -1,9 +1,15 @@
-## Smart City (My Problem) Simulation
+## Smart City Fast Parking Search Simulation
 
-(remove: Define what category  (or combination of categories) of simulation needed to solve this problem.)
+For the Fast Parking Search system I chose to use a Discrete-Event Based Simulation.
 
-(remove: Why did you choose this simulation type?)
+I chose this because a Discrete-Event Based Simulation changes it's behavior only when it is responding to a specific event. In this case a user input or a vehicle is parked over the sensor.
 
-(remove: Roughly, how would you conduct the simulation to produce the results from your specification?)
+I would conduct the simulation with Anylogic because it is easy to use and has many resourses to get the results I want.
+
+Some of the data I would like to collect is: 
+
+- time it take to reach parking spot
+- availablity of a parking spot
+- traffic data around area of parkings
 
 (remove: images say 1000 words for you...)

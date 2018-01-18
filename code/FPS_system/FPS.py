@@ -11,40 +11,31 @@ from Sensor import Sensor
 
 def CreateParkingLots(parkingLots):
 	#create a random amount of parking spots for sim
-	print("creating spots")
-	locations = []
+	handicap = []
+	comapct = []
+	regular = []	
 
-		
+	'''Create some parking spots for the parking lots'''
+	for i in range(0,10):
+		handicap.append(Handicap("A-" + str(i), 0.0, Sensor(), True))
+		comapct.append(Compact("B-" + str(i), 12.0, Sensor()))
+		regular.append(Regular("C-" + str(i), 20.0, Sensor()))
 
-	#for i in range(0,5):
-	#	tempLoc = CreateRandomLocations()
-	#	locations.append(tempLoc)
-	#	parkingSpots.append(Handicap(tempLoc, False, 12.0, True, False))
-	#for l in locations:
-	#	print(l)
-	#for p in parkingSpots:
-	#	print(p)
+	'''Create some parking lots and initialize them'''
+	sL = SingleLevel(Location(1,2,3),handicap,3,4,5)
+	mL = MulitLevel(Location(1,2,3),comapct,3,4,5,6)
 
-	h = Handicap("A-1", 0.0, "Sensor", True)
-	c = Compact("A-2", 12.0, "Sensor")
-	r = Regular("A-3", 20.0, "Sensor")
-
-	sL = SingleLevel(Location(1,2,3),h,3,4,5)
-	mL = MulitLevel(Location(1,2,3),c,3,4,5,6)
-
+	'''Print out the parking lots you just created'''
+	'''Print out all the available parking spots'''	
 	print(sL)
+	for spot in sL.GetParkingSpots():
+		print(spot)
+
+	print()
+
 	print(mL)
-	print(h)
-	print(h.Area())
-	print(c)
-	print(c.Area())
-	print(r)
-	print(r.Area())
-	
-
-
-	# create new random locations
-	
+	for spot in mL.GetParkingSpots():
+		print(spot)	
 
 def CreateRandomLocations():
 	x = random.randrange(0,10)
@@ -56,19 +47,18 @@ def CreateRandomLocations():
 
 
 def Simulate():
-	print("here")
+	'''This is where you will get the user input and search for a spot'''
+	print()
 
 
 
 def main():
 	
-	#create parking spots
+	#create parking lots
 	parkingLots = []
 	CreateParkingLots(parkingLots)
 
 	Simulate()
-	l = Location(1,2,3)
-	#print(l)
 
 if __name__ == '__main__':
 	main()

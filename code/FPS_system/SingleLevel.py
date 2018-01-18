@@ -6,6 +6,6 @@ class SingleLevel(ParkingLot):
 	def __init__(self, location, parkingSpots, w, l, h):
 		ParkingLot.__init__(self, location, parkingSpots, w, l, h)
 
-	def Demension():
+	def Dimension(self):
 		return self.width * self*height
 
