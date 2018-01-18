@@ -1,6 +1,7 @@
 ## Smart City Fast Parking Search Model - Behavior Diagram
 
 (remove: provide a description of the current model you describe below)
+![Example Object Diagram](../images/behavior_diagram.png)
 
 (remove: More decription)
 (remove: Maybe a second or third diagram to highlight a point or aspect)
