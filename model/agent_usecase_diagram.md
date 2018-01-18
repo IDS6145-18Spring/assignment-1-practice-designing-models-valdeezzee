@@ -1,10 +1,6 @@
 ## Smart City Fast Parking Search Model - Agent / User Case
 
-(remove: provide a description of the current model you describe below)
+This system does not really have a user case. It's very simple. The user finds parking and goes to parking
 
 ![Example User Case](../images/usercase_diagram.png)
 
-(remove: More decription)
-(remove: Maybe a second or third diagram to highlight a point or aspect)
-
-(remove: each diagram markdown file should roughly follow this template)
