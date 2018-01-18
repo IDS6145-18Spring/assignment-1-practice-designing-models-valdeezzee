@@ -19,10 +19,6 @@ There is this app but it has not been updated since 2012 and it only lets the us
 
 [Orlando parkIN' app](https://itunes.apple.com/us/app/orlando-parkin/id391522969?mt=8)
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
-(remove: Add real-world examples, if any)
-(remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
-
 ## Requirements (Experimental Design)
 
 Hypothesis - Having a smart parking system can decrese the time it takes to find a parking, traffic, and the use of fuel. 
@@ -37,12 +33,9 @@ The User will be able to set route to spot and it will store that time it takes 
 
 ## Smart City Fast Parking Search Model
 
-(remove: add a high-level overview of your model, the part below should link to the model directory markdown files)
-(remove: Look at the [**Object Diagram**](model/object_diagram.md) for how to structure this part of Part 2 for each diagram. Only the Object diagram has the template, the rest are blank. )
-
 * [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
-* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
+* [**Class Diagram**](model/class_diagram.md) - provides details of the functions and variables of each class
+* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of how they systems interacts with eachother in form of a sequence diagram
 * [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
 
 ## Smart City Fast Parking Search Simulation
