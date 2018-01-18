@@ -1,4 +1,4 @@
-# Assignment1 - Practice Designing Models (Template)
+# Assignment1 - Practice Designing Models
 
 > * Participant name: Jonathan Valderrama
 > * Project Title: Finding parking using parking spot sensors and geolocation

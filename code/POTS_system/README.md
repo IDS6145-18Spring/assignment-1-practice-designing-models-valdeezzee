@@ -9,7 +9,10 @@ simulation loop in it and key press to take a look at.)
 from compost and add more water and tweak it based on measured constants to simulate
 a real system)
 
-
+# POTS Object Diagram
 Example linked diagram to help you.
-![POTS system](../../images/class_example_diagram.png)
+![POTS system](../../images/POTS_Object_Diagram.png)
+
+# POTS Class Diagram
+![POTS system](../../images/POTS_Object_Diagram.png)
 more decription
