@@ -1,4 +1,5 @@
 import random
+from Sensor import Sensor
 class ParkingSpot:
 
 	def __init__(self, number, cost, sensor):
@@ -18,6 +19,10 @@ class ParkingSpot:
 		'''Returns the parking spot number'''
 		return self.spotNumber
 
+	def SetOccupied(self):
+		self.occupied = self.sensor.GetObjectDetected()
+
+
 	def __str__(self):
 		price = ""
 		if self.cost == 0.0:
@@ -25,3 +30,4 @@ class ParkingSpot:
 		else:
 			price = str(self.cost) + " to park."
 		return "Parking Spot is of type {} at Spot Number {} and it is {}".format(str(self.__class__.__name__),self.spotNumber, price)
+
