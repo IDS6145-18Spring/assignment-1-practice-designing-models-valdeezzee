@@ -12,4 +12,16 @@ Some of the data I would like to collect is:
 - availablity of a parking spot
 - traffic data around area of parkings
 
+Inputs:
+
+- user location
+- sensor location
+
+Outputs:
+
+- parking spot number
+- parking lot location
+- time spent reaching parking spot
+- traffic data
+
 (remove: images say 1000 words for you...)
