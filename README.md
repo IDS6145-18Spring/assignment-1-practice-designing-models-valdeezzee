@@ -4,6 +4,8 @@
 > * Participant name: Jonathan Valderrama
 > * Project Title: Finding parking using parking spot sensors and geolocation
 
+![Example Object Diagram](images/class_object_diagram.png)
+
 ## General Introduction
 
 A **smart city** is an urban area that uses different types of electronic data collection sensors to supply information which is used to manage assets and resources efficiently.
