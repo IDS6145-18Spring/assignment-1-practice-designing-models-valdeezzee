@@ -1,5 +1,4 @@
 # Assignment1 - Practice Designing Models (Template)
-(remove: **text between brackets to be removed**)
 
 > * Participant name: Jonathan Valderrama
 > * Project Title: Finding parking using parking spot sensors and geolocation
@@ -52,7 +51,7 @@ I would have a user input their location or the location where they would like t
 
 
 ## Smart City Fast Parking Search Model
-[**Code template**](code/README.md) - Starting coding framework for the (insert your exact problem here.)
+[**Code template**](code/README.md) - Starting coding framework for the Fast Parking Search system.
 
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
 Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template.
