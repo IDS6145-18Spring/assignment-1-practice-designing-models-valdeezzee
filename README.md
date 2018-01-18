@@ -26,24 +26,9 @@ Hypothesis - Having a smart parking system can decrese the time it takes to find
 
 Requirements:
 
-* Access to a smartphone or laptop with gps
-* Sensors placed on parking spots
+There will be senors that are placed in the ground on the center of the desired parking spot. This sensor will have detection whether there is a vehicle park or not. It will be used to send information to the app that will update the parking spot in real time. It will also have geolocation to send the exact spot found.
 
-Inputs:
-
-* User inputs locations where they want to find parking.
-* Types of parking spots
-
-Outputs:
-
-* Closest locations
-* Types of parking spots
-
-Functions:
-
-* Search for ParkingLots available in area you are searching
-* Returning the number of the parking spot
-
+The User will be able to set route to spot and it will store that time it takes to arrive at the spot. This data will be collected to find better ways to address parking. Nearby traffic sensors will be able to identify.
 
 (remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
 
