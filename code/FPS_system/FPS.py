@@ -4,7 +4,7 @@ from Location import Location
 from Handicap import Handicap
 from Regular import Regular
 from Compact import Compact
-from MulitLevel import MulitLevel
+from MultiLevel import MultiLevel
 from SingleLevel import SingleLevel
 from Sensor import Sensor
 
@@ -23,7 +23,7 @@ def CreateParkingLots(parkingLots):
 
 	'''Create some parking lots and initialize them'''
 	sL = SingleLevel(Location(1,2,3),handicap,3,4,5)
-	mL = MulitLevel(Location(1,2,3),comapct,3,4,5,6)
+	mL = MultiLevel(Location(1,2,3),comapct,3,4,5,6)
 
 	'''Print out the parking lots you just created'''
 	'''Print out all the available parking spots'''	
