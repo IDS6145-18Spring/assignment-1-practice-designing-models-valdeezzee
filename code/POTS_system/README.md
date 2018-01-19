@@ -8,4 +8,3 @@ This is the models for the POTS system. The system is used to water vegtables by
 
 # POTS Class Diagram
 ![POTS system](../../images/POTS_Class_Diagram.png)
-more decription
