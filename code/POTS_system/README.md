@@ -14,5 +14,5 @@ Example linked diagram to help you.
 ![POTS system](../../images/POTS_Object_Diagram.png)
 
 # POTS Class Diagram
-![POTS system](../../images/POTS_Object_Diagram.png)
+![POTS system](../../images/POTS_Class_Diagram.png)
 more decription
