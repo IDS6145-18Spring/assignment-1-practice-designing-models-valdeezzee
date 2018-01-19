@@ -1,16 +1,9 @@
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
 
-(Remove: decribe the model here, use whatever diagram you need object, class, etc)
+This is the models for the POTS system. The system is used to water vegtables by its self and keep track of it's health. If you don't take good care of your vegtables, they will die. Container class is what keeps everything together. Containers has soil, vegtables, and water. Soil has 4 different kinds of soil and each provide nutrients in different ways. Vegtable has 4 different vegtable. Each has their own way of growing and different volumes, but they all get the same sun, water, and death.
 
-(Remove: The code does run - you should try it. It does not do much, but has a very basic 
-simulation loop in it and key press to take a look at.)
-
-(Remove: You kill your plants after a key timesteps, but you could always add nuterients
-from compost and add more water and tweak it based on measured constants to simulate
-a real system)
 
 # POTS Object Diagram
-Example linked diagram to help you.
 ![POTS system](../../images/POTS_Object_Diagram.png)
 
 # POTS Class Diagram
