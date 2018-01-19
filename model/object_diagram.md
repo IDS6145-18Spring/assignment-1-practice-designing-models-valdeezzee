@@ -9,7 +9,3 @@ This Object Diagram show at a high level how the Fast Parking Search model work 
 ![Example Object Diagram](../images/object_diagram.png)
 
 ![Example Object Diagram](../images/Smart-parking-concept.png)
-
-(remove: More decription)
-
-(remove: each diagram markdown file should roughly follow this template)

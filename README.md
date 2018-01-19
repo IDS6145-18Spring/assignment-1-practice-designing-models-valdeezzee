@@ -29,26 +29,22 @@ There will be senors that are placed in the ground on the center of the desired 
 
 The User will be able to set route to spot and it will store that time it takes to arrive at the spot. This data will be collected to find better ways to address parking. Nearby traffic sensors will be able to identify.
 
-(remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
-
 ## Smart City Fast Parking Search Model
 
 * [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
 * [**Class Diagram**](model/class_diagram.md) - provides details of the functions and variables of each class
 * [**Behavior Diagram**](model/behavior_diagram.md) - provides details of how they systems interacts with eachother in form of a sequence diagram
-* [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
+* [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of a simple user case.
 
 ## Smart City Fast Parking Search Simulation
 
 I would have a user input their location or the location where they would like to search for parking. The simulation searches for the closest parking lot and shows the parking spots in the lot you pick.
 
-[**Analysis**](analysis/README.md)
-
-(remove: for part 3 add two to three sentences here and link the [**(your own name)**](model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
+[**Analysis Section**](analysis/README.md)
 
 
 ## Smart City Fast Parking Search Model
 [**Code template**](code/README.md) - Starting coding framework for the Fast Parking Search system.
 
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
-Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template.
+Here [**are the diagrams**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model.

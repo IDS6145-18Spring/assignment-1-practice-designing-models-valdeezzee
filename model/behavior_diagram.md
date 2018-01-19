@@ -7,7 +7,4 @@ This sequence diagram demonstrates the interactions between the different parts 
 
 ![Example Behavior Diagram](../images/parking_available.png)
 
-(remove: More decription)
-(remove: Maybe a second or third diagram to highlight a point or aspect)
 
-(remove: each diagram markdown file should roughly follow this template)
