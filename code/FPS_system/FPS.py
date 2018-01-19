@@ -1,3 +1,5 @@
+''' Jonathan Valderrama'''
+
 import math, time, random
 import numpy as np
 from Location import Location
