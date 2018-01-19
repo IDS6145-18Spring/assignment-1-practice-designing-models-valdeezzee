@@ -26,4 +26,10 @@ Outputs:
 
 This system will help me analyse my hypothesis by acquiring data to show if a smart parking system actually helped with reduced time searching for parking and traffic.
 
-(remove: images say 1000 words for you...)
+The simulation will be conducted as following: User inputs a location to look for a parking spot. The location then outputs the closest parking lots near the user. User picks the parking lot they desire. The system then outputs the parking spot available to the user. The user sets course to their destination. The sensor starts a timer to capture the time it take to get to the parking spot. Data capturd will be time spent looking for a parking spot. Traffic systems will be able to analyze the amount of traffice in the nearby area where Fast Parking Search is installed. This way we can see if there is a decreas in traffic congestion and be able to prove my hypothesis.
+
+![Example Behavior Diagram](../images/parking_location.png)
+
+![Example Behavior Diagram](../images/sensors.png)
+
+![Example Behavior Diagram](../images/quickpark.png)

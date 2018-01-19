@@ -42,7 +42,6 @@ I would have a user input their location or the location where they would like t
 
 [**Analysis Section**](analysis/README.md)
 
-
 ## Smart City Fast Parking Search Model
 [**Code template**](code/README.md) - Starting coding framework for the Fast Parking Search system.
 
